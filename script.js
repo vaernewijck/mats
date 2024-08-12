@@ -1,5 +1,5 @@
 const countElement = document.querySelector('.count');
-let counter = 5;
+let counter = 4;
 
 const countdownInterval = setInterval(() => {
   counter--;
