@@ -9,8 +9,9 @@ const countdownInterval = setInterval(() => {
   if (counter > 0) {
     countElement.textContent = `${counter} ${counter > 1 ? ' seconden' : ' seconde'}!`;
   } else {
+    const coundown = document.querySelector('.countdown');
+    coundown.style.display = 'none';
     window.location.href = 'https://pakske.be/lijst/mats-vaernewijck';
-    countElement.textContent = `Let's go!`;
 
     clearInterval(countdownInterval);
   }
