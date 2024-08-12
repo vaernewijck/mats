@@ -47,8 +47,8 @@ img {
 
 @media (min-width: 48rem) {
   img {
-    width: 50vw;
-    height: 50vw;
+    width: 66vw;
+    height: 66vw;
   }
 
   .countdown {
@@ -57,6 +57,11 @@ img {
 }
 
 @media (min-width: 64rem) {
+  img {
+    width: 33vw;
+    height: 33vw;
+  }
+
   .countdown {
     font-size: 1.6rem;
   }
