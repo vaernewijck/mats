@@ -11,7 +11,9 @@ const countdownInterval = setInterval(() => {
   } else {
     const coundown = document.querySelector('.countdown');
     coundown.style.display = 'none';
-    window.location.href = 'https://pakske.be/lijst/mats-vaernewijck';
+
+    window.location.assign('https://pakske.be/lijst/mats-vaernewijck');
+
 
     clearInterval(countdownInterval);
   }
