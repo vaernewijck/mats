@@ -25,23 +25,6 @@ a {
   padding: 1rem;
 }
 
-.count {
-  animation: fontVariation 1s linear infinite;
-  will-change: font-variation-settings, transform;
-}
-
-@keyframes fontVariation {
-  0% {
-    font-variation-settings: "wght" 700;
-    transform: scale(1.5);
-  }
-
-  100% {
-    font-variation-settings: "wght" 400;
-    transform: scale(1);
-  }
-}
-
 @media (min-width: 48rem) {
   .lottie-player {
     width: 66vw;
