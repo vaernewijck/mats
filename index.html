@@ -4,23 +4,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hey Mats!</title>
+
   <link rel="icon" href="https://fav.farm/👋" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
-
-  <title>Hey Mats!</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <img src="./face.svg">
-  <div class="countdown">
+  <dotlottie-player class="lottie-player" src="./mats.json" background="transparent" speed="1" direction="1"
+    playMode="normal" loop autoplay></dotlottie-player>
+  <main class="countdown">
     Je gaat naar de <a href="https://pakske.be/lijst/mats-vaernewijck">geboortelijst</a> binnen <span class="count">5
       seconden</span>
-  </div>
-
+  </main>
+  <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
   <script src="script.js"></script>
 </body>
 
